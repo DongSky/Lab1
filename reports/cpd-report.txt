@@ -1,0 +1,41 @@
+Found a 10 line (91 tokens) duplication in the following files: 
+Starting at line 213 of D:\eclipse-workspace\Lab4\ShiYan1.java
+Starting at line 239 of D:\eclipse-workspace\Lab4\ShiYan1.java
+
+        Graph gv = new Graph();
+        gv.addln(gv.startGraph());
+        for (i = 0; i < dotsNum(); i++) {
+            for (j = 0; j < dotsNum(); j++) {
+                if (currentGraph[i][j] != 0) {
+                    gv.addln(dots[i] + " -> " + dots[j]
+                            + "[label = " + currentGraph[i][j] + "]" + ";");
+                }
+            }
+        }
+=====================================================================
+Found a 5 line (40 tokens) duplication in the following files: 
+Starting at line 128 of D:\eclipse-workspace\Lab4\ShiYan1.java
+Starting at line 137 of D:\eclipse-workspace\Lab4\ShiYan1.java
+
+                        || bridgeTemp.charAt(0) == '#') {
+                tailindex = inputText.indexOf(words[i + 1], headindex)
+                        + words[i + 1].length() - 1;
+                outputText = outputText
+                             + inputText.substring(headindex,
+=====================================================================
+Found a 3 line (29 tokens) duplication in the following files: 
+Starting at line 128 of D:\eclipse-workspace\Lab4\ShiYan1.java
+Starting at line 137 of D:\eclipse-workspace\Lab4\ShiYan1.java
+Starting at line 144 of D:\eclipse-workspace\Lab4\ShiYan1.java
+
+                        || bridgeTemp.charAt(0) == '#') {
+                tailindex = inputText.indexOf(words[i + 1], headindex)
+                        + words[i + 1].length() - 1;
+=====================================================================
+Found a 3 line (26 tokens) duplication in the following files: 
+Starting at line 171 of D:\eclipse-workspace\Lab4\ShiYan1.java
+Starting at line 182 of D:\eclipse-workspace\Lab4\ShiYan1.java
+
+        for (i = 0; i < v; i++) {
+            for (j = 0; j < v; j++) {
+                    if (currentGraph[i][j] == 0) {
